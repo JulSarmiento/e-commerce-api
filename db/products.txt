@@ -1,0 +1,26 @@
+[
+  {
+    "productName": "Collar Ligth",
+    "productPrice": "125000",
+    "thumbnail": "/uploads/1649981429848-collar-light-pink-detail.jpg",
+    "id": 1
+  },
+  {
+    "productName": "Collar Elegant",
+    "productPrice": "152000",
+    "thumbnail": "/uploads/1649981491185-collar-elegant-dark-blue-detail.jpg",
+    "id": 2
+  },
+  {
+    "productName": "Id Tag Azul",
+    "productPrice": "50000",
+    "thumbnail": "/uploads/1650045648306-tag-blue-with-gold.jpg",
+    "id": 3
+  },
+  {
+    "productName": "Collar Elegant",
+    "productPrice": "300000",
+    "thumbnail": "/uploads/1650291282138-collar-elegant-black-detail.jpg",
+    "id": 4
+  }
+]
