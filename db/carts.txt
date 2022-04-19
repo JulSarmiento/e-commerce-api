@@ -1,0 +1,11 @@
+[
+  {
+    "products": [
+      {
+        "productName": "Collar Ligth",
+        "productPrice": 100000,
+        "units": 3
+      }
+    ],
+    "total": 152000,
+]
