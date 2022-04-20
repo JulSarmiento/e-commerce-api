@@ -5,11 +5,26 @@ const db = 'carts';
 
 const cart = new Container(db);
 
+const product = new Container('products');
+
 // add new cart of products
 exports.save = async function(req, res) {
-  console.log(req.body)
 
-  res.json(await cart.save(req.body));
+  const productsArray = req.body.products;
+
+  const productList = await product.getAll();
+
+  const productId = productList.find(id => product.id === id);
+ 
+  if(productId){
+
+    productsArray.push(productId)
+    res.json(await cart.save(req.body));
+
+  }
+
+
+  
 }
 
 // save an item in an existen cart (like an update) PENDIENTE

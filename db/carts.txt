@@ -2,10 +2,14 @@
   {
     "products": [
       {
+        "id": 1,
         "productName": "Collar Ligth",
         "productPrice": 100000,
-        "units": 3
+        "qty": 3
       }
     ],
-    "total": 152000,
+    "totalItems": 3,  
+    "total": 300000,
+    "id": 1
+  }
 ]

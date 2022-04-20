@@ -16,4 +16,8 @@ async function productExist(req, res, next){
   res.status(400).json({error: `Producto no encontrado.`})
 }
 
+async function productsExist(req, res, next) {
+
+}
+
 module.exports = productExist;
